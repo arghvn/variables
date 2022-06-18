@@ -18,3 +18,13 @@ func main() {
 		fmt.Println(pair[0])
 	}
 }
+
+// output :
+// FOO: 1
+// BAR:
+// TERM_PROGRAM
+// PATH
+// SHELL
+//  BAR=2 go run environment-variables.go
+// FOO: 1
+// BAR: 2
